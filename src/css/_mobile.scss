@@ -1,0 +1,130 @@
+header {
+    height: 50px;
+    width: 100%;
+    background-color: $main;
+    display: flex;
+    justify-content: space-between;
+}
+.logoBox{
+    padding: 14px 0 16px 5%;
+}
+.logo{
+   
+    background: url(../assets/TRKIT.png) ;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 22px;
+    width: 65px;
+}
+.logIn{
+    display: flex;
+   color: $mainFontColor;
+   font-family: $mainFont;
+  
+}
+.signUp{
+    padding: 16px 37px 0 20px;
+}
+.signIn{
+    padding:16px;
+}
+.hero{
+    
+    background-color: rgba($color: $main, $alpha: .5);
+    
+    
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.heroColor{
+    background: url(../assets/Mobile.jpg) ;  
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.heroTitle{
+    color: white;
+    font-size: 60px;
+    font-family: $mainFont;
+    font-weight: 900;
+    padding: 163px 0 0 20px;
+    
+    
+}
+.heroText{
+    color: white;
+    font-size: 20px;
+    font-family: $mainFont;
+    font-weight: 500;
+    padding: 0 0 20px 20px;
+}
+.quoteBox{
+    width: 100%;
+    height: 174px;
+    display: flex;
+    justify-content: center;
+    
+}
+.quote{
+    height: 76px;
+    width: 90%;
+    text-align: justify;
+    padding-top: 49px;
+    font-family: $mainFont;
+    font-weight: 500;
+    font: 18px;
+}
+.linkBoxes{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.linkBox{
+    background-color: rgba($color: $main, $alpha: .5);
+   
+    width: 100%;
+    height: 167px;
+    
+    display: flex;
+    justify-content: space-between;
+}
+.linkBox1{
+    background-image: url(../assets/mobilewcopy.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 90%;
+    height: 167px;
+    margin-bottom: 39px;
+}
+.linkBox2{
+    background-image: url(../assets/mobileI.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 90%;
+    height: 167px;
+    margin-bottom: 39px;
+}
+.linkBox3{
+    background-image: url(../assets/mobileI.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 90%;
+    height: 167px;
+    margin-bottom: 39px;
+}
+.readMore{
+    color:$mainFontColor;
+    font-family: $mainFont;
+    padding: 121px 20px 0 0;
+    font-size: 16px;
+    font-weight: 500;
+}
+.linkTitle{
+    color: white;
+    font-size: 24px;
+    font-family: $mainFont;
+    padding: 13px 0 0 18px;
+    font-weight: 900;
+}

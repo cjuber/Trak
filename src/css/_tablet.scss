@@ -1,0 +1,82 @@
+header {
+    height: 60px;
+    
+}
+.logo{
+    
+    height: 25px;
+    width: 76px;
+}
+.logoBox{
+    padding: 17px 0 0 37px;
+}
+.signUp{
+    padding: 17px 37px 0 20px;
+}
+.signIn{
+    padding:17px;
+}
+.hero{
+    height: 434px;
+}
+.heroColor{
+    background: url(../assets/Tablet.jpg) ;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.heroTitle{
+    font-size: 86px;
+    padding: 218px 0 0 25px;
+}
+.heroText{
+    font-size: 36px;
+    padding: 0 0 24px 25px;
+}
+.quoteBox{
+    width: 100%;
+    height: 197px;
+    display: flex;
+    justify-content: center;
+    
+}
+.quote{
+    height: 73px;
+    
+    font-size: 24px;
+}
+.linkBoxes{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.linkBox1{
+    background-image: url(../assets/tabletlcopy.jpg);
+    margin: 0 2.5% 2.5% 2.5% ;
+    height: 199px;
+}
+.linkBox2{
+    background-image: url(../assets/TabletI.jpg);
+    margin: 0 2.5% 2.5% 2.5% ;
+    height: 199px;
+}
+.linkBox3{
+    background-image: url(../assets/TabletI.jpg);
+    margin: 0 2.5% 2.5% 2.5% ;
+    height: 199px;
+}
+.linkBox{
+    
+    height: 100%;
+    
+    
+    flex-direction: column;
+}
+.linkTitle{
+font-size: 26px;
+}
+.readMore{
+    font-size: 20px;
+    padding: 0 0 20px 105px;
+}

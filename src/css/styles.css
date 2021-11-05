@@ -1,0 +1,423 @@
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+@import url("https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique:wght@400;500;900&display=swap");
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  line-height: 1;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+nav ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+/* change colours to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* change border colour to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+input, select {
+  vertical-align: middle;
+}
+
+header {
+  height: 50px;
+  width: 100%;
+  background-color: #001E47;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.logoBox {
+  padding: 14px 0 16px 5%;
+}
+
+.logo {
+  background: url(../assets/TRKIT.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 22px;
+  width: 65px;
+}
+
+.logIn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #FF5757;
+  font-family: "Zen Kaku Gothic Antique", sans-serif;
+}
+
+.signUp {
+  padding: 16px 37px 0 20px;
+}
+
+.signIn {
+  padding: 16px;
+}
+
+.hero {
+  background-color: rgba(0, 30, 71, 0.5);
+  width: 100%;
+  height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.heroColor {
+  background: url(../assets/Mobile.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.heroTitle {
+  color: white;
+  font-size: 60px;
+  font-family: "Zen Kaku Gothic Antique", sans-serif;
+  font-weight: 900;
+  padding: 163px 0 0 20px;
+}
+
+.heroText {
+  color: white;
+  font-size: 20px;
+  font-family: "Zen Kaku Gothic Antique", sans-serif;
+  font-weight: 500;
+  padding: 0 0 20px 20px;
+}
+
+.quoteBox {
+  width: 100%;
+  height: 174px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.quote {
+  height: 76px;
+  width: 90%;
+  text-align: justify;
+  padding-top: 49px;
+  font-family: "Zen Kaku Gothic Antique", sans-serif;
+  font-weight: 500;
+  font: 18px;
+}
+
+.linkBoxes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.linkBox {
+  background-color: rgba(0, 30, 71, 0.5);
+  width: 100%;
+  height: 167px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.linkBox1 {
+  background-image: url(../assets/mobilewcopy.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 90%;
+  height: 167px;
+  margin-bottom: 39px;
+}
+
+.linkBox2 {
+  background-image: url(../assets/mobileI.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 90%;
+  height: 167px;
+  margin-bottom: 39px;
+}
+
+.linkBox3 {
+  background-image: url(../assets/mobileI.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 90%;
+  height: 167px;
+  margin-bottom: 39px;
+}
+
+.readMore {
+  color: #FF5757;
+  font-family: "Zen Kaku Gothic Antique", sans-serif;
+  padding: 121px 20px 0 0;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.linkTitle {
+  color: white;
+  font-size: 24px;
+  font-family: "Zen Kaku Gothic Antique", sans-serif;
+  padding: 13px 0 0 18px;
+  font-weight: 900;
+}
+
+@media only screen and (min-width: 760px) {
+  header {
+    height: 60px;
+  }
+  .logo {
+    height: 25px;
+    width: 76px;
+  }
+  .logoBox {
+    padding: 17px 0 0 37px;
+  }
+  .signUp {
+    padding: 17px 37px 0 20px;
+  }
+  .signIn {
+    padding: 17px;
+  }
+  .hero {
+    height: 434px;
+  }
+  .heroColor {
+    background: url(../assets/Tablet.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  .heroTitle {
+    font-size: 86px;
+    padding: 218px 0 0 25px;
+  }
+  .heroText {
+    font-size: 36px;
+    padding: 0 0 24px 25px;
+  }
+  .quoteBox {
+    width: 100%;
+    height: 197px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .quote {
+    height: 73px;
+    font-size: 24px;
+  }
+  .linkBoxes {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .linkBox1 {
+    background-image: url(../assets/tabletlcopy.jpg);
+    margin: 0 2.5% 2.5% 2.5%;
+    height: 199px;
+  }
+  .linkBox2 {
+    background-image: url(../assets/TabletI.jpg);
+    margin: 0 2.5% 2.5% 2.5%;
+    height: 199px;
+  }
+  .linkBox3 {
+    background-image: url(../assets/TabletI.jpg);
+    margin: 0 2.5% 2.5% 2.5%;
+    height: 199px;
+  }
+  .linkBox {
+    height: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .linkTitle {
+    font-size: 26px;
+  }
+  .readMore {
+    font-size: 20px;
+    padding: 0 0 20px 105px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .logoBox {
+    padding: 10px 0 20px 36px;
+  }
+  .logo {
+    height: 35px;
+    width: 107px;
+  }
+  .heroColor {
+    background: url(../assets/Desktop.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  .heroTitle {
+    font-size: 120px;
+    padding: 200px 0 0 25px;
+  }
+  .heroText {
+    font-size: 40px;
+  }
+  .quoteBox {
+    width: 100%;
+    height: 173px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .quote {
+    height: 73px;
+    font-size: 30px;
+  }
+  .linkBoxes {
+    width: 100%;
+  }
+  .linkBox1 {
+    background-image: url(../assets/tabletlcopy.jpg);
+    margin: 0 2.5% 2.5% 2.5%;
+    height: 264px;
+  }
+  .linkBox2 {
+    background-image: url(../assets/TabletI.jpg);
+    margin: 0 2.5% 2.5% 2.5%;
+    height: 264px;
+  }
+  .linkBox3 {
+    background-image: url(../assets/TabletI.jpg);
+    margin: 0 2.5% 2.5% 2.5%;
+    height: 264px;
+  }
+  .linkTitle {
+    font-size: 30px;
+  }
+  .readMore {
+    font-size: 24px;
+    padding: 0 20px 20px 0;
+    text-align: right;
+  }
+}
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,59 @@
+.logoBox{
+    padding: 10px 0 20px 36px;
+}
+.logo{
+    
+    height: 35px;
+    width: 107px;
+}
+.heroColor{
+    background: url(../assets/Desktop.jpg) ;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.heroTitle{
+    font-size: 120px;
+    padding: 200px 0 0 25px;
+}
+.heroText{
+    font-size: 40px;
+}
+.quoteBox{
+    width: 100%;
+    height: 173px;
+    display: flex;
+    justify-content: center;
+    
+}
+.quote{
+    height: 73px;
+    
+    font-size: 30px;
+}
+.linkBoxes{
+    width: 100%;
+}
+.linkBox1{
+    background-image: url(../assets/tabletlcopy.jpg);
+    margin: 0 2.5% 2.5% 2.5% ;
+    height: 264px;
+}
+.linkBox2{
+    background-image: url(../assets/TabletI.jpg);
+    margin: 0 2.5% 2.5% 2.5% ;
+    height: 264px;
+}
+.linkBox3{
+    background-image: url(../assets/TabletI.jpg);
+    margin: 0 2.5% 2.5% 2.5% ;
+    height: 264px;
+}
+
+.linkTitle{
+font-size: 30px;
+}
+.readMore{
+    font-size: 24px;
+    padding: 0 20px 20px 0;
+    text-align: right;
+}
